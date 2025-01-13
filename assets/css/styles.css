@@ -1,0 +1,1598 @@
+@import url("./font.css");
+
+body, h1, h2, p {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  color: #000000;
+}
+img {
+  max-width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+/* SECTION 1 */
+.container-nav{
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+.img-logo{
+margin: 50px auto;
+}
+
+
+.container-nav h1{
+ font-size: 40px;
+ line-height: 45px;
+ font-family: Oswald;
+ text-transform: uppercase;
+ word-wrap: break-word;
+ width: 250px;
+
+}
+
+.container-nav p{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 250px;
+  margin: 10px 25px 0 0;
+}
+.bt-1{
+
+  width: 182px;
+  height: 62px;
+  margin: 10px auto  ;
+  background: #e7961e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-1:hover{
+  background: #007B8A;
+  opacity: 0.9;
+}
+/* ASSINATURA 7 DIAS GRATIS */
+
+.container-bt{
+  background: #e7961e;
+  height: 120px;
+  max-width: 100%;
+  align-items: center;
+}
+.container-bt{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.bt-2:hover{
+  background: #666;
+  color: #fff;
+}
+.bt-2{
+  background: #0E83A8;
+  width: 182px;
+  height: 62px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+/* O QUE É O CLUBE DA ARTE*/
+.container-arte2{
+  display: flex;
+}
+.ct-art{
+ margin: 25px;
+}
+.titulo-3{
+  font-size: 40px;
+  line-height: 45px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  width: 253px;
+}
+.titulo-3{
+  margin: 25px;
+}
+.p-3{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 427px;
+}
+.subtitulo-3{
+  width: 458px;
+  height: 58px;
+  font-family: Quattrocento;
+  font-size: 28px;
+  word-wrap: break-word;
+  margin: 25px 0px;
+}
+
+/*container 4 */
+.gramado{
+ position: absolute;
+}
+.gramado > img{
+ width: 2560px;
+}
+.container-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.container-trip > img{
+  margin-top: -150px;
+ 
+}
+
+.img-1, .img-2, .img-3 {
+  padding: 5px;
+  max-width: 100%;
+}
+
+/*container 5 */
+
+.section-05{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.titulo-5{
+  margin-top: -180px;
+  font-size: 30px;
+  width: 440px;
+  text-transform: uppercase;
+  font-family: Oswald;
+}
+.container-5{
+  display: flex;
+  flex-grow: 1;
+}
+.icon-1{
+  font-family:'Quattrocento';
+}
+.icon-1 > span{
+  font-family: Oswald;
+  font-size: 2rem;
+  color: #2E8DA1;
+  font-weight: bold;
+
+}
+.icon-1 > p{
+  margin-top: 25px;
+  font-size: 16px;
+  width: 270px;
+  word-wrap: break-word;
+  font-family:'Quattrocento';
+}
+.icon-2 > span{
+  font-family: Oswald;
+  font-size: 2rem;
+  color: #2E8DA1;
+  font-weight: bold;
+}
+.icon-2 > p{
+  margin-top: 25px;
+  font-size: 16px;
+  width: 270px;
+  word-wrap: break-word;
+  font-family:'Quattrocento';
+}.icon-3 > span{
+  font-family: Oswald;
+  font-size: 2rem;
+  color: #2E8DA1;
+  font-weight: bold;
+}
+.icon-3 > p{
+  margin-top: 25px;
+  font-size: 16px;
+  width: 270px;
+  word-wrap: break-word;
+  font-family:'Quattrocento';
+}
+.bt-ct5 > button{
+  margin-top: 60px;
+  background: #e7961e;
+  width: 185px;
+  height: 62px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-mobile2{
+  display: none;
+}
+
+.bt-ct5 {
+  display: flex;
+  justify-content: center;
+}
+.icon-1, .icon-2, .icon-3{
+margin: 30px auto;
+}
+
+.container-6 {
+  margin: 0 auto;
+  max-width: 960px;
+  margin-top: 120px;
+  font-family: Oswald;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-6{
+  font-size: 36px;
+}
+.dp-mobile2{
+  display: none;
+}
+
+/* slider */
+.data{
+  opacity: 0.5;
+}
+.slider img, h4, p, span {
+  padding: 5px;
+}
+.slider h4 {
+  color: #2E8DA1;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.slider p{
+  font-family: Quattrocento;
+  font-size: 1rem;
+}
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  max-width: 70%;
+  margin-top: 30px;
+  }
+.slider {
+   display: flex;
+  transition: transform 0.5s ease-in-out;
+  }
+.slide{
+  margin: 0 auto;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+.slide img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.slide .rating {
+  color: #FFD700;
+}
+.progress-bar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 4px;
+  background: #e0e0e0;
+  border-radius: 3px;
+}
+
+.progress {
+  height: 100%;
+  background: #007B8A;
+  width: 0;
+  border-radius: 3px;
+  transition: width 0.5s ease-in-out;
+}
+
+.controls {
+  position: absolute;
+  top: 97%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.control-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.control-button:hover {
+  color: #007B8A;
+}
+.img-dp{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -350px;
+}
+/*container 7 */
+.container-7{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: co;
+}
+.not-1{
+position: absolute;
+
+}
+.not-2{
+justify-items: flex-start;
+
+}
+.ct-7{
+  padding: 10px;
+  font-family:Oswald;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.p-7 {
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-family: 1rem;
+  width: 427px;
+  margin-bottom: 35px;
+}
+.bt-7{
+  width: 182px;
+  height: 62px;
+  background: #e7961e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-mobile{
+  display: none;
+}
+
+/* CONTAINER 8 */
+.container-8{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.caneta{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: -250px ;
+  margin-bottom: 60px;
+}
+.ct-8{
+  font-family:Oswald;
+  font-size: 36px;
+  text-transform: uppercase;
+ 
+}
+.p-8{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  width: 427px;
+
+}
+.ct-9{
+  font-family:Oswald;
+  font-size: 36px;
+  text-transform: uppercase;
+
+}
+.p-9{
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-family: 1rem;
+
+}
+.sp-9{
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-family: 1rem;
+  width: 400px;
+  margin-bottom: 30px;
+}
+/* FOOTER */
+
+.ct-footer{
+  border: solid 1px #000000;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.footer-t{
+  margin-top: 40px;
+}
+
+/* Responsivo */
+@media screen and (max-width:2560px){
+  /* SECTION 1 */
+.container-nav{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1600px;
+  justify-content: space-between;
+}
+
+
+.img-logo{
+margin: 50px auto;
+}
+
+
+.container-nav h1{
+ font-size: 40px;
+ line-height: 45px;
+ font-family: Oswald;
+ text-transform: uppercase;
+ word-wrap: break-word;
+ width: 250px;
+
+}
+
+.container-nav p{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 250px;
+  margin: 10px 25px 0 0;
+}
+.bt-1{
+
+  width: 182px;
+  height: 62px;
+  margin: 10px auto  ;
+  background: #e7961e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-1:hover{
+  background: #007B8A;
+  opacity: 0.9;
+}
+/* ASSINATURA 7 DIAS GRATIS */
+
+.container-bt{
+  background: #e7961e;
+  height: 120px;
+  max-width: 100%;
+  align-items: center;
+}
+.container-bt{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.bt-2:hover{
+  background: #666;
+  color: #fff;
+}
+.bt-2{
+  background: #0E83A8;
+  width: 182px;
+  height: 62px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+/* O QUE É O CLUBE DA ARTE*/
+.container-arte2{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.ct-art{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.titulo-3{
+  font-size: 40px;
+  line-height: 45px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  width: 253px;
+}
+.titulo-3{
+  margin: 0;
+}
+.p-3{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 427px;
+}
+.subtitulo-3{
+  width: 458px;
+  height: 58px;
+  font-family: Quattrocento;
+  font-size: 28px;
+  word-wrap: break-word;
+  margin: 25px 0px;
+}
+
+/*container 4 */
+.gramado{
+ position: absolute;
+}
+.gramado > img{
+ width: 2560px;
+}
+.container-4{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-trip{
+  margin: 0 auto;
+  max-width: 1600px;
+  flex-grow: 1;
+  z-index: 2;
+}
+.container-trip{
+  margin: 0 auto;
+  max-width: 1600px;
+  margin: 620px auto;
+  display: flex;
+  justify-content: center;
+}
+.container-trip > img{
+  max-width: 100%;
+  padding: 15px;
+}
+/*container 5 */
+
+.section-05{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.titulo-5{
+  margin-top: -380px;
+  margin-bottom: 60px;
+  font-size: 30px;
+  width: 440px;
+  text-transform: uppercase;
+  font-family: Oswald;
+
+}
+.container-5{
+  display: flex;
+  flex-grow: 1;
+}
+
+.container-6 {
+  margin: 0 auto;
+  max-width: 1600px;
+  margin-top: 120px;
+  font-family: Oswald;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-6{
+  font-size: 36px;
+}
+.dp-mobile2{
+  display: none;
+}
+
+/* slider */
+.data{
+  opacity: 0.5;
+}
+.slider img, h4, p, span {
+  padding: 5px;
+}
+.slider h4 {
+  color: #2E8DA1;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.slider p{
+  font-family: Quattrocento;
+  font-size: 1rem;
+}
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  max-width: 70%;
+  margin-top: 30px;
+  }
+.slider {
+   display: flex;
+  transition: transform 0.5s ease-in-out;
+  }
+.slide{
+  margin: 0 auto;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+.slide img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.slide .rating {
+  color: #FFD700;
+}
+.progress-bar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 4px;
+  background: #e0e0e0;
+  border-radius: 3px;
+}
+
+.progress {
+  height: 100%;
+  background: #007B8A;
+  width: 0;
+  border-radius: 3px;
+  transition: width 0.5s ease-in-out;
+}
+
+.controls {
+  position: absolute;
+  top: 97%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.control-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.control-button:hover {
+  color: #007B8A;
+}
+.img-dp{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -350px;
+}
+/*container 7 */
+.container-7{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.not-1{
+position: absolute;
+
+}
+.not-2{
+justify-items: flex-start;
+
+}
+.ct-7{
+  padding: 10px;
+  font-family:Oswald;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.p-7 {
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-family: 1rem;
+  width: 427px;
+  margin-bottom: 35px;
+  
+}
+.bt-7{
+  width: 182px;
+  height: 62px;
+  background: #e7961e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-mobile{
+  display: none;
+}
+
+/* CONTAINER 8 */
+.container-8{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1600px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.ct-8{
+  font-family:Oswald;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.p-8{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  width: 427px;
+}
+
+
+.ct-end{
+ display: flex;
+ margin:0 auto;
+ max-width: 1600px;
+ flex-wrap: wrap;
+
+}
+.ct-9{
+  margin: 0;
+  padding: 0;
+}
+.ct-9{
+  padding-left: 60px;
+}
+.sp-9{
+  margin-top: 60px;
+  margin-left: -200px;
+}
+
+/* FOOTER */
+
+.ct-footer{
+  border: solid 1px #000000;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.footer-t{
+  margin-top: 40px;
+}
+}
+@media screen and (max-width:1366px){
+  /* SECTION 1 */
+.container-nav{
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.img-logo{
+margin: 50px auto;
+}
+
+
+.container-nav h1{
+ font-size: 40px;
+ line-height: 45px;
+ font-family: Oswald;
+ text-transform: uppercase;
+ word-wrap: break-word;
+ width: 250px;
+
+}
+
+.container-nav p{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 250px;
+  margin: 10px 25px 0 0;
+}
+.bt-1{
+
+  width: 182px;
+  height: 62px;
+  margin: 10px auto  ;
+  background: #e7961e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-1:hover{
+  background: #007B8A;
+  opacity: 0.9;
+}
+/* ASSINATURA 7 DIAS GRATIS */
+
+.container-bt{
+  background: #e7961e;
+  height: 120px;
+  max-width: 100%;
+  align-items: center;
+}
+.container-bt{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.bt-2:hover{
+  background: #666;
+  color: #fff;
+}
+.bt-2{
+  background: #0E83A8;
+  width: 182px;
+  height: 62px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+/* O QUE É O CLUBE DA ARTE*/
+.container-arte2{
+  display: flex;
+}
+.ct-art{
+ margin: 25px;
+}
+.titulo-3{
+  font-size: 40px;
+  line-height: 45px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  width: 253px;
+}
+.titulo-3{
+  margin: 25px;
+}
+.p-3{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 427px;
+}
+.subtitulo-3{
+  width: 458px;
+  height: 58px;
+  font-family: Quattrocento;
+  font-size: 28px;
+  word-wrap: break-word;
+  margin: 25px 0px;
+}
+
+/*container 4 */
+.gramado{
+ position: absolute;
+}
+
+.container-4{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-trip{
+  margin: 0 auto;
+  max-width: 960px;;
+  flex-grow: 1;
+  z-index: 2;
+}
+.container-trip{
+  margin: 0 auto;
+  max-width: 960px;
+  margin: 350px auto;
+}
+.container-trip > img{
+  margin: 0 auto;
+  max-width: 300px;
+}
+.img-1, .img-2, .img-3 {
+  padding: 5px;
+  max-width: 150px;
+}
+
+/*container 5 */
+
+.section-05{
+  margin: 0 auto;
+  max-width: 960px;
+}
+.titulo-5{
+  margin-top: -180px;
+  font-size: 30px;
+  width: 440px;
+  text-transform: uppercase;
+  font-family: Oswald;
+}
+.container-5{
+  display: flex;
+  flex-grow: 1;
+  
+}
+
+.bt-mobile2{
+  display: none;
+}
+
+.bt-ct5 {
+  display: flex;
+  justify-content: center;
+}
+.icon-1, .icon-2, .icon-3{
+margin: 30px auto;
+}
+
+.container-6 {
+  margin: 0 auto;
+  max-width: 960px;
+  margin-top: 120px;
+  font-family: Oswald;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-dp{
+margin-left: 550px;
+}
+.dp-mobile2{
+  display: none;
+}
+
+/*CONTAINER 7 */
+.cl-2{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.ct-7{
+  margin-top: 60px;
+}
+.bt-7{
+margin-bottom: 60px;
+}
+/* CONTAINER 8 */
+.container-8{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.ct-8{
+  margin-top: 60px;
+  margin-left: -160px;
+}
+.p-8{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  width: 427px;
+  margin-left: -160px;
+
+}
+.ct-9{
+  font-family:Oswald;
+  font-size: 36px;
+  text-transform: uppercase;
+
+}
+.p-9{
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-family: 1rem;
+
+}
+.ct-end img{
+  max-width: 300px;
+}
+
+.ct-end{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+ 
+}
+.sp-9{
+  margin: 0;
+  padding: 0;
+}
+.ct-9{
+  margin: 0;
+  padding: 0;
+}
+.ct-9 {
+ margin-top: -20px;
+ margin-left: 50px;
+}
+.sp-9{
+  margin-left: -200px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* FOOTER */
+
+.ct-footer{
+  margin: 0 auto;
+  max-width: 100%;
+  border:none;
+  display: flex;
+  justify-content: center;
+  border-top:solid 1px #000000;
+}
+.footer-t{
+  margin-top: 40px;
+}
+
+}
+@media screen and (max-width:800px){
+  /* SECTION 1 */
+.container-nav{
+  display: flex;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+
+.img-logo{
+margin: 50px auto;
+}
+
+
+.container-nav h1{
+ font-size: 40px;
+ line-height: 45px;
+ font-family: Oswald;
+ text-transform: uppercase;
+ word-wrap: break-word;
+ width: 250px;
+
+}
+
+.container-nav p{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 250px;
+  margin: 10px 25px 0 0;
+}
+.bt-1{
+
+  width: 182px;
+  height: 62px;
+  margin: 10px auto  ;
+  background: #e7961e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-1:hover{
+  background: #007B8A;
+  opacity: 0.9;
+}
+/* ASSINATURA 7 DIAS GRATIS */
+
+.container-bt{
+  background: #e7961e;
+  height: 120px;
+  max-width: 100%;
+  align-items: center;
+}
+.container-bt{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.bt-2:hover{
+  background: #666;
+  color: #fff;
+}
+.bt-2{
+  background: #0E83A8;
+  width: 182px;
+  height: 62px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+/* O QUE É O CLUBE DA ARTE*/
+.container-arte2{
+  display: flex;
+}
+.ct-art{
+ margin: 25px;
+}
+.titulo-3{
+  font-size: 40px;
+  line-height: 45px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  width: 253px;
+}
+.titulo-3{
+  margin: 25px;
+}
+.p-3{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  width: 427px;
+}
+.subtitulo-3{
+  width: 458px;
+  height: 58px;
+  font-family: Quattrocento;
+  font-size: 28px;
+  word-wrap: break-word;
+  margin: 25px 0px;
+}
+
+/*container 4 */
+.gramado{
+ position: absolute;
+}
+
+.container-4{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-trip{
+  margin: 0 auto;
+  max-width: 760px;;
+  flex-grow: 1;
+  z-index: 2;
+}
+.container-trip{
+  margin: 0 auto;
+  max-width: 760px;
+  margin: 260px auto;
+}
+.container-trip > img{
+  margin: 0 auto;
+  max-width: 250px;
+}
+.img-1, .img-2, .img-3 {
+  padding: 5px;
+  max-width: 150px;
+}
+
+/*container 5 */
+
+.section-05{
+  margin: 0 auto;
+  max-width: 760px;
+}
+.section-05  p{
+  max-width:250px;
+}
+.titulo-5{
+  margin-top: -180px;
+  font-size: 30px;
+  width: 440px;
+  text-transform: uppercase;
+  font-family: Oswald;
+}
+.container-5{
+  display: flex;
+  flex-grow: 1;
+  
+}
+
+.bt-mobile2{
+  display: none;
+}
+
+.bt-ct5 {
+  display: flex;
+  justify-content: center;
+}
+.icon-1, .icon-2, .icon-3{
+margin: 30px auto;
+}
+
+.container-6 {
+  margin: 0 auto;
+  max-width: 760px;
+  margin-top: 120px;
+  font-family: Oswald;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-dp{
+margin-left: 550px;
+}
+.dp-mobile2{
+  display: none;
+}
+
+/*CONTAINER 7 */
+.cl-2{
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.ct-7{
+  margin-top: 60px;
+}
+.bt-7{
+margin-bottom: 60px;
+}
+/* CONTAINER 8 */
+.container-8{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 760px;
+}
+.ct-8{
+  margin-top: 60px;
+  margin-left: -160px;
+}
+.p-8{
+  font-family: Quattrocento;
+  font-size: 1rem;
+  width: 427px;
+  margin-left: -160px;
+
+}
+.ct-9{
+  font-family:Oswald;
+  font-size: 36px;
+  text-transform: uppercase;
+
+}
+.p-9{
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-family: 1rem;
+
+}
+
+.ct-end{
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sp-9{
+  margin: 0;
+  padding: 0;
+}
+.ct-9{
+  margin: 0;
+  padding: 0;
+}
+.ct-9{
+ margin-top: 30px;
+}
+.sp-9{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* FOOTER */
+
+.ct-footer{
+  margin: 0 auto;
+  max-width: 760px;
+  border:none;
+  display: flex;
+  justify-content: center;
+  border-top:solid 1px #000000;
+}
+.footer-t{
+  margin-top: 40px;
+}
+
+}
+@media screen and (max-width:480px){
+  /* SECTION 1 */
+.container-nav{
+  display: flex;
+  margin: 0 auto;
+  max-width: 300px;
+  justify-content: space-around;
+}
+.img-logo{
+margin-left: 20px;
+content: url("../images/logo-mobile.png");
+}
+
+.img-background{
+  content: url("../images/background-mobile.png");
+  display: none;
+}
+
+/* ASSINATURA 7 DIAS GRATIS */
+
+.container-bt{
+background-color: transparent;
+}
+.container-bt{
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start;
+  max-width: 300px;
+}
+.bt-2{
+  display: none;
+}
+.span-1{
+  display: none;
+}
+
+/* O QUE É O CLUBE DA ARTE*/
+.container-arte2{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.img-background-2 >img{
+max-width: 100%;
+}
+.ct-art{
+ max-width: 300px; 
+ margin: 0 auto;
+}
+.titulo-3{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.p-3{
+  width: 300px;
+
+}
+.subtitulo-3{
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+/*container 4 */
+
+.gramado > img{
+max-width: 600px;
+display: flex;
+}
+.gramado{
+
+}
+.bt-mobile2{
+  display: flex;
+  width: 182px;
+  height: 62px;
+  background: #e7961e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.bt-mobile2:hover{
+  background: #007B8A;
+}
+.bt-mobile2{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: -120px;
+  margin-bottom: 220px;
+}
+.container-4{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.container-trip{
+ display: none;
+}
+
+/*container 5 */
+.dp-mobile2{
+  max-width: 100%;
+}
+.section-05{
+  flex-wrap: wrap;
+  max-width:300px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.titulo-5{
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 30px;
+  width: 440px;
+  text-transform: uppercase;
+  font-family: Oswald;
+}
+.container-5{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+
+}
+.bt-ct5 {
+  display: none;
+}
+.container-6 {
+  margin-top: 120px;
+  font-family: Oswald;
+  margin: 0 auto;
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-dp >img{
+display: none;
+}
+.dp-mobile2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.container-6{
+  font-size: 36px;
+  margin: 0 auto;
+  max-width: 300px;
+  margin-bottom: 120px;
+}
+
+/* slider */
+
+.slider-container {
+  max-width: 300px;
+  margin: 0 auto;
+  }
+
+/*container 7 */
+.container-7{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 320px;
+  justify-content: center;
+}
+.not-1{
+margin-top: 20px;
+max-width: 90%;
+}
+.not-2{
+max-width: 100%;
+margin-bottom: 120px;
+}
+.cl-2{
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+}
+.ct-7{
+  margin-top: -50px;
+}
+.p-7 {
+  font-family: Quattrocento;
+  font-size: 16px;
+  font-family: 1rem;
+  width: 300px;
+  margin-bottom: 35px;
+}
+.bt-7:hover{
+  background: #007B8A;
+}
+.bt-mobile{
+  display: none;
+}
+
+/* CONTAINER 8 */
+.container-8{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.ct-g{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
+}
+.img-8{
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caneta{
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.ct-8{
+  margin-top: 60px;
+}
+.p-8{
+  width: 300px;
+}
+
+.ct-9{
+margin-top: 20px;
+max-width: 300px;
+margin: 0 auto;
+}
+.p-9{
+margin-top: 20px;
+
+}
+.sp-9{
+  max-width: 300px;
+  margin: 0 auto;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+.ct-footer{
+border: none;
+}
+.ct-footer{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  border-top: solid #000000;
+  max-width: 80%;
+}
+}
+
